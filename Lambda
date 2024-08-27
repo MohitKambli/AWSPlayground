@@ -1,0 +1,10 @@
+AWS Lambda is a serverless computing service
+This service allows you to write your own functions in multiple supported languages like Java, Python, NodeJS, etc
+Once these functions have been implemented, these are deployed on machines managed by AWS
+Serverless doesn't mean having no servers, but it means that we don't have to worry about the management of servers which this function would be running on
+For example in EC2, we have to configure and manage the memory, storage and other parameters for our EC2 instance
+In case of Lambda, we don't have to do anything like this
+We simply need to write a function and deploy it
+Lambda will handle the traffic on this function by scaling its server as required
+Since all the task of managing a server/instance is nullified, this is called a serverless AWS service
+Based on the trigger configured, when that particular trigger is invoked, the function gets executed
