@@ -1,0 +1,14 @@
+Amazon EC2 is a service which allows you to create virtual machines or instances on AWS Cloud.
+To create an EC2 instance, we need to implement the following steps:
+  -> Give a name to your EC2 instance
+  -> Depending which OS you want to work on, choose an AMI (Amazon Machine Image) accordingly
+     There are a variety of AMIs to choose from
+     These can be Amazon Linux, Ubuntu, Windows, MacOS, RedHat, SUSE Linux
+     We can also select the architecture that we would like to work on (x86 / arm)
+  -> Select an Instance Type based on he requirements
+     These instance types can be selected based on the memory/CPU/Family factors
+  -> Create a Key Pair for login
+     We need to generate a Key Pair Login by giving a name to it, selecting its type (RSA/ED25519), choosing key file format (pem/ppk) and simply create it
+  -> Configure Network Settings by creating/choosing security group and then define rules on these groups (allowing ssh/https/http traffic)
+  -> Configure Storage based on the requirements (RAM & ROM)
+  -> Review the summary and simply launch the instance
