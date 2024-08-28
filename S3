@@ -1,0 +1,13 @@
+Amazon Simple Storage Service (S3) is an object storage service
+For quick access speed and support to thousands of request per second, the data object is stored in the form of buckets
+We can have multiple buckets in which the data object would be stored
+Bucket limit on an AWS account is 100
+Bucket name should be unique globally
+In order to create a bucket:
+  -> Select a unique name for your bucket
+  -> Choose the AWS region in which your bucket needs to be placed
+  -> Configure Access Control List
+  -> Configure Bucket Versioning
+  -> Select Encryption
+  -> Configure Properties/Permissions for the bucket
+  -> While deleting an S3 bucket, first delete all the objects within that bucket and then delete the bucket
