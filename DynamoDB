@@ -1,0 +1,10 @@
+AWS DynamoDB is a fast and flexible NoSQL database service
+Fully managed NoSQL database suitable for document & key-value store models
+Stored on SSD Storage
+High availability since it is spread across 3 geographically distinct data centres
+Suitable for read heavy applications rather than heavy write applications
+Offers Two Read Consistency Types:
+  -> Eventually consistent reads
+  -> Strongly consistent reads
+Writing to DynamoDB is expensive
+Reading from Dynamo is cheap
