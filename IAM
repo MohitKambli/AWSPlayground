@@ -1,0 +1,8 @@
+AWS IAM (Identity Access Management) is an AWS service taht allows you to manage access to AWS resources
+With IAM, we can create users and manage their permissions for accessing AWS resources based on the requirements
+One way we can go with is that we can create user groups and assign policies/permissions to the group itself
+By doing so, we simply can add users to their respective groups, thereby giving them necessary access to the AWS resources
+One restriction that we have is that we can create only 10 user permissions, so in order to overcome this drawback, we can simply assign permissions to the group itself and then add users accordingly
+The permissions can be like, accessing S3, EC2 or any other AWS service
+We can also make our own custom permission which could be like a particular group can only list all the S3 buckets, but can't upload anything to it
+Configuring IAM is a good practise and appropriate corporate method to create/manage users, groups and permissions
