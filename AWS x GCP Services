@@ -1,0 +1,19 @@
+AWS vs GCP (Equivalent Services)
+Compute : Elastic Compute Cloud vs Compute Engine
+Serverless Computing : AWS Lambda vs Cloud Functions
+Containers : Amazon Elastic Kubernetes Service vs Google Kubernetes Engine
+Storage : AWS S3 (Simple Storage Service) vs Google Cloud Storage
+Database : 
+	RDS vs Cloud SQL
+	DynamoDB vs Cloud Firestore
+	RedShift vs BigQuery
+Networking : VPC vs VPC (Virtual Private Cloud)
+Machine Learning :
+	SageMaker vs AI Platform
+	Rekognition vs AutoML
+	Comprehend vs Vision AI
+Monitoring & Logging : CloudWatch/CloudTrail vs Stackdriver
+Security & Identity : 
+	IAM vs IAM (Identity Access Management)
+	KMS vs KMS (Key Management Service)
+Content Delivery Network (CDN) : CloudFront vs Cloud CDN
