@@ -4,7 +4,7 @@ Two main features of AWS Glue:
        1) Database: Logical database (Not a physical database) that stores metadata tables
        2) Tables: Logical table (Not a physical table) that contains metadata of the data stored in various data sources
        3) Crawlers: Program that connects to data source, scans data in data source to determine its schema and creates metadata tables in Data Catalog
-       4) Connections: Configuration object that enables Glue to connect to your/various data stores
+       4) Connections: Configuration object that enables Glue to connect to your or various data stores
   -> ETL Engine: Used to visualize, run and monitor ETL pipelines
        1) ETL Jobs: Transforms the extracted/source data and then puts in the loaded/destination data
        2) Triggers: Events that can start your ETL jobs (Event based / Schedule based)
